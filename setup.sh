@@ -75,7 +75,7 @@ setup_base() {
 			continue
 		else
 			echo -e ${MAGENTA}"\n[!] Error installing $package, Terminating...\n"
-			{ reset_color; exit 1; }
+			{ reset_color; l; }
 		fi
 	done
 	reset_color
